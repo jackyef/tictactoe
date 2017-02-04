@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400,500);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+h4, h3, h2, h1, span{
+  color: #333;
+}
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.6em;
+}
+#main-menu{
+  position: relative;
+  min-height: 60%;
+}
+#game-screen{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5em;
+  display: none;
+  opacity: 0;
+  position: relative;
+  min-height: 60%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+table td, table th {
+    border: 10px solid black;
+    padding: 0.1em;
+}
+.sign{
+  font-family: 'Permanent Marker', cursive;
+  color: #333;
+  font-size: 10em;
+  position: relative;
+}
+.sign-x{
+  color: rgb(26, 103, 159);
+}
+.sign-o{
+  color: rgb(207, 50, 50);
+}
+.sign-x:hover, .sign-o:hover{
+  filter: brightness(150%);
+}
+.col-md-6 .col-sm-6 .col-md-3 .col-sm-3 .col-md-12 {
+  border-radius: 1px solid;
+  text-align: center;
+}
+.grid {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  line-height: .55em;
+  font-size: 1.1em;
+}
+#win-message{
+  border: 1px solid;
+  text-align:center;
+  font-size: 5em;
+  position: absolute;
+  top: 45%;
+  background-color: #ddd;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 100%;
+  opacity: 0;
+  display:none;
+}
+.footer {
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #333;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn.button:hover {
+  opacity: 0.9;
+}
+
+.btn.button{
+  font-weight: 600;
+  background-color: #777;
+  color: #eee;
+}
